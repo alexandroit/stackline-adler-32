@@ -38,11 +38,14 @@ function adler32_str(str/*:string*/, seed/*:?ADLER32Type*/)/*:ADLER32Type*/ {
 		M = Math.min(L-i, 2918);
 		while(M>0) {
 			c = str.charCodeAt(i++);
+			/* Match UTF-8 encoders: replace unpaired UTF-16 surrogates with U+FFFD. */
+			if(c >= 0xD800 && c < 0xE000 &&
+				!(c < 0xDC00 && i < L && (d = str.charCodeAt(i)) >= 0xDC00 && d < 0xE000)) c = 0xFFFD;
 			if(c < 0x80) { a += c; }
 			else if(c < 0x800) {
 				a += 192|((c>>6)&31);             b += a; --M;
 				a += 128|(c&63);
-			} else if(c >= 0xD800 && c < 0xE000) {
+			} else if(c >= 0xD800 && c < 0xDC00) {
 				c = (c&1023)+64; d = str.charCodeAt(i++) & 1023;
 				a += 240|((c>>8)&7);              b += a; --M;
 				a += 128|((c>>2)&63);             b += a; --M;

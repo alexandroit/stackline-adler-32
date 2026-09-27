@@ -1,3 +1,15 @@
+# @stackline/adler-32
+
+Maintained fork of [adler-32](https://github.com/SheetJS/js-adler32) 1.3.1. Apache-2.0; original copyright notices are retained.
+
+The `str` function encodes unpaired UTF-16 surrogates as U+FFFD, matching standard UTF-8 encoders. Valid strings, byte inputs, signed results, and seed behavior are preserved.
+
+Requires Node.js 20.19 or newer. No runtime dependencies.
+
+## Stackline development
+
+Run `npm ci`, `npm run build`, `npm test` and `npm run lint` and `npm run test:types`. The checked-in upstream fixtures and focused regression suite run without downloading external test data.
+
 # adler32
 
 Signed ADLER-32 algorithm implementation in JS (for the browser and nodejs).
@@ -8,7 +20,7 @@ Emphasis on correctness, performance, and IE6+ support.
 With [npm](https://www.npmjs.org/package/adler-32):
 
 ```bash
-$ npm install adler-32
+$ npm install @stackline/adler-32
 ```
 
 In the browser:
@@ -44,7 +56,7 @@ The return value is a signed 32-bit integer.
 For example:
 
 ```js
-// var ADLER32 = require('adler-32');           // uncomment if in node
+// var ADLER32 = require('@stackline/adler-32');           // uncomment if in node
 ADLER32.str("SheetJS")                          // 176947863
 ADLER32.bstr("SheetJS")                         // 176947863
 ADLER32.buf([ 83, 104, 101, 101, 116, 74, 83 ]) // 176947863

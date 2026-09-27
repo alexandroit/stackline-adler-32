@@ -5,3 +5,12 @@ test_files/*.js
 test_files/baseline*
 misc/coverage.html
 ctest/sauce*
+
+.DS_Store
+.env
+.env.*
+*.log
+coverage/
+
+node_modules/
+artifact/

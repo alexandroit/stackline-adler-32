@@ -1,4 +1,4 @@
-import { buf, bstr, str } from 'adler-32';
+import { buf, bstr, str } from '@stackline/adler-32';
 
 const t1: number = buf([1,2,3,4,5]);
 const t3: number = bstr("\u0001\u0002\u0003\u0004\u0005");
