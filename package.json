@@ -1,11 +1,16 @@
 {
   "name": "@stackline/adler-32",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "sheetjs",
-  "description": "Pure-JS ADLER-32",
+  "description": "ADLER-32 checksums for strings and byte buffers, with the SheetJS adler-32 API",
   "keywords": [
+    "stackline",
     "adler32",
-    "checksum"
+    "checksum",
+    "adler-32",
+    "hash",
+    "binary",
+    "utf8"
   ],
   "main": "adler32.js",
   "types": "types/index.d.ts",

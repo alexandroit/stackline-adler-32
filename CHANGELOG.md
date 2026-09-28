@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-09-28)
+
+- Standardize package documentation, preserve the API reference and upstream attribution, and add Stackline community links.
+- Add focused npm discovery keywords and consistent repository metadata.
+- Keep runtime behavior, dependency versions, and the GitHub Actions publication workflow unchanged.
+
 ## 1.0.0
 
 - Fork adler-32 1.3.1 under the `@stackline` scope; retain its Apache-2.0 license and API.
