@@ -5,12 +5,12 @@
   "description": "ADLER-32 checksums for strings and byte buffers, with the SheetJS adler-32 API",
   "keywords": [
     "stackline",
-    "adler32",
-    "checksum",
+    "npm-package",
     "adler-32",
-    "hash",
-    "binary",
-    "utf8"
+    "typescript",
+    "nodejs",
+    "adler32",
+    "checksum"
   ],
   "main": "adler32.js",
   "types": "types/index.d.ts",
@@ -28,7 +28,7 @@
     "test:types": "tsc -p types/tsconfig.json",
     "lint": "node --check adler32.js"
   },
-  "homepage": "https://github.com/alexandroit/stackline-adler-32#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/adler-32/",
   "files": [
     "adler32.js",
     "LICENSE",

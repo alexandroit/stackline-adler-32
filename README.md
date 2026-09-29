@@ -1,17 +1,18 @@
 # @stackline/adler-32
 
-> ADLER-32 checksums for strings and byte buffers, with the SheetJS adler-32 API.
+> Pure-JS ADLER-32.
 
 [![npm version](https://img.shields.io/npm/v/@stackline/adler-32.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/adler-32)
-[![license](https://img.shields.io/npm/l/@stackline/adler-32.svg?style=flat-square)](https://github.com/alexandroit/stackline-adler-32/blob/main/LICENSE)
-[![GitHub repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-adler-32)
+[![license](https://img.shields.io/npm/l/@stackline/adler-32.svg?style=flat-square)](https://github.com/alexandroit/stackline-adler-32)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-adler-32-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-adler-32)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/adler-32/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
-**[Documentation](https://github.com/alexandroit/stackline-adler-32#readme)** |
-**[npm](https://www.npmjs.com/package/@stackline/adler-32)** |
-**[Issues](https://github.com/alexandroit/stackline-adler-32/issues)** |
-**[Repository](https://github.com/alexandroit/stackline-adler-32)**
+**[Documentation](https://alexandro.net/docs/vanilla/adler-32/)** | **[npm](https://www.npmjs.com/package/@stackline/adler-32)** | **[Issues](https://github.com/alexandroit/stackline-adler-32/issues)** | **[Repository](https://github.com/alexandroit/stackline-adler-32)**
 
-**Package version:** `1.0.1`
+**Current package version:** `1.0.1`
+
+---
 
 ## Why this package?
 
@@ -199,15 +200,6 @@ $ packages/adler32-cli/bin/adler32.py t.txt
 3. Use the [GitHub publish workflow](https://github.com/alexandroit/stackline-adler-32/actions/workflows/publish.yml) with its `Prod` environment to publish the exact CI tarball.
 4. Verify public npm bytes, package identity, provenance, and the immutable GitHub release evidence.
 
-## Community and Support
-
-Report reproducible package issues in the [issue tracker](https://github.com/alexandroit/stackline-adler-32/issues).
-
-- [Stackline / Alexandro.Net](https://alexandro.net/)
-- [GitHub](https://github.com/alexandroit)
-- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
-- [Reddit community: r/Stackline](https://www.reddit.com/r/Stackline/)
-
 ## License
 
 [Apache-2.0](https://github.com/alexandroit/stackline-adler-32/blob/main/LICENSE). Original copyright notices and upstream attribution are retained.
@@ -216,3 +208,23 @@ Please consult the attached LICENSE file for details.  All rights not explicitly
 granted by the Apache 2.0 license are reserved by the Original Author.
 
 See [NOTICE](https://github.com/alexandroit/stackline-adler-32/blob/main/NOTICE) for retained attribution.
+
+## Credits and original authors
+
+- sheetjs.
+- Copyright (C) 2014-present   SheetJS LLC.
+- Original work Copyright SheetJS; distributed under the Apache License 2.0.
+- Stackline modifications Copyright 2026 Stackline contributors.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
