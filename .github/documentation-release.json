@@ -1,0 +1,25 @@
+{
+  "repository": "alexandroit/stackline-adler-32",
+  "packages": [
+    {
+      "name": "@stackline/adler-32",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "adler-32",
+        "typescript",
+        "nodejs",
+        "adler32",
+        "checksum"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/adler-32/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/adler-32/-/adler-32-1.0.0.tgz",
+      "baselineIntegrity": "sha512-75xoxEh8IQKmTJufU9XHuN++t+OQLp/hn5QG2769pLG9qGd7hr4FRfNi/qGwG1RjqOjvfNgG5YVaqUQcZV07yg==",
+      "expectedSha512": "9f30e7dddb5b65bf2afe2417b5957f7083a379a65e16b61ee93ee6e1d69517c837f1a8501f598417ea46e9668307a62e4bf89bb8bf632bd0cf971fbdca48f6f1",
+      "tag": "docs-stackline-adler-32-v1.0.1"
+    }
+  ]
+}
