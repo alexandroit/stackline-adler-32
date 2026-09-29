@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/adler-32.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/adler-32)
 [![license](https://img.shields.io/npm/l/@stackline/adler-32.svg?style=flat-square)](https://github.com/alexandroit/stackline-adler-32)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-adler-32-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-adler-32)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-adler-32)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/adler-32/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/adler-32/)** | **[npm](https://www.npmjs.com/package/@stackline/adler-32)** | **[Issues](https://github.com/alexandroit/stackline-adler-32/issues)** | **[Repository](https://github.com/alexandroit/stackline-adler-32)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -29,7 +29,7 @@ Emphasis on correctness, performance, and IE6+ support.
 
 | Item | Value |
 | --- | --- |
-| Package | `@stackline/adler-32@1.0.1` |
+| Package | `@stackline/adler-32@1.0.2` |
 | Supported Node.js | `>=20.19.0` |
 | Module entry | `adler32.js` (CommonJS) |
 | Runtime dependencies | 0 direct dependencies |
