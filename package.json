@@ -1,6 +1,6 @@
 {
   "name": "@stackline/adler-32",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "sheetjs",
   "description": "ADLER-32 checksums for strings and byte buffers, with the SheetJS adler-32 API",
   "keywords": [

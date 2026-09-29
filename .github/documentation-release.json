@@ -4,7 +4,7 @@
     {
       "name": "@stackline/adler-32",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -18,8 +18,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/adler-32/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/adler-32/-/adler-32-1.0.0.tgz",
       "baselineIntegrity": "sha512-75xoxEh8IQKmTJufU9XHuN++t+OQLp/hn5QG2769pLG9qGd7hr4FRfNi/qGwG1RjqOjvfNgG5YVaqUQcZV07yg==",
-      "expectedSha512": "9f30e7dddb5b65bf2afe2417b5957f7083a379a65e16b61ee93ee6e1d69517c837f1a8501f598417ea46e9668307a62e4bf89bb8bf632bd0cf971fbdca48f6f1",
-      "tag": "docs-stackline-adler-32-v1.0.1"
+      "expectedSha512": "ac5ececf7cda23654a4cd293e6e4f7f656687842ee6dc95f637c8b91830bf27d7dd379fe51640e373349e0c9e6cc04d11c53349d5fce08a2f83d3c5c0846a30a",
+      "tag": "docs-stackline-adler-32-v1.0.2"
     }
   ]
 }
